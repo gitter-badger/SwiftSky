@@ -42,9 +42,8 @@ env:
         - DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="$WATCHOS_SDK" RUN_TESTS="NO"   POD_LINT="NO"     CODE_COVERAGE="NO"
         - DESTINATION="OS=2.1,name=Apple Watch - 38mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="$WATCHOS_SDK" RUN_TESTS="NO"   POD_LINT="NO"     CODE_COVERAGE="NO"
         - DESTINATION="OS=2.0,name=Apple Watch - 38mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="$WATCHOS_SDK" RUN_TESTS="NO"   POD_LINT="NO"     CODE_COVERAGE="NO"
-before_install:
-    - rvm use $RVM_RUBY_VERSION
-    - gem install cocoapods slather --pre --no-rdoc --no-ri --no-document --quiet
+before_install: rvm use $RVM_RUBY_VERSION
+install: gem install cocoapods slather --pre --no-rdoc --no-ri --no-document --quiet
 script:
     - set -o pipefail
     - xcodebuild -version
@@ -54,10 +53,11 @@ script:
       else
         travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty;
       fi
-    - if [ $CODE_COVERAGE == "YES" ]; then
-        slather;
-        bash <(curl -s https://codecov.io/bash) -f cobertura.xml -X coveragepy -X gcov -X xcode;
-      fi
     - if [ $POD_LINT == "YES" ]; then
         pod lib lint;
+      fi
+after_success:
+    - if [ $CODE_COVERAGE == "YES" ]; then
+        slather;
+        bash <(curl -s https://codecov.io/bash) -f coverage/cobertura.xml -X coveragepy -X gcov -X xcode;
       fi
