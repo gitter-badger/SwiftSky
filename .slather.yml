@@ -3,5 +3,6 @@ xcodeproj: SwiftSky.xcodeproj
 workspace: SwiftSky.xcworkspace
 scheme: SwiftSky iOS
 source_directory: Source
+output_directory: coverage/
 ignore:
   - Tests/*
