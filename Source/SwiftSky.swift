@@ -140,13 +140,19 @@ public protocol LocationConvertible {
 }
 
 /// Represents a physical location defined by latitude and longitude degrees
-public struct Location : LocationConvertible {
+public class Location : LocationConvertible {
     
     /// Specifies the north–south position of a point on the Earth's surface
     public let latitude : Double
     
     /// Specifies the east–west position of a point on the Earth's surface
     public let longitude : Double
+    
+    /// Creates a `Location` from latitude and longitude
+    public init(latitude: Double, longitude : Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
     
     /// :nodoc:
     public func asLocation() -> Location? {

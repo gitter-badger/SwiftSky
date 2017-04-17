@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="1.0000000000000000" branch-rate="1.0000000000000000" lines-covered="708" lines-valid="708" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1492396874" version="Slather 2.4.1">
+<coverage line-rate="1.0000000000000000" branch-rate="1.0000000000000000" lines-covered="712" lines-valid="712" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1492397045" version="Slather 2.4.1">
   <sources>
     <source>/Users/luca/Desktop/SwiftSky</source>
   </sources>
@@ -584,38 +584,36 @@
             <line number="118" branch="false" hits="1"/>
             <line number="119" branch="false" hits="3"/>
             <line number="120" branch="false" hits="3"/>
-            <line number="152" branch="false" hits="2"/>
-            <line number="153" branch="false" hits="2"/>
-            <line number="154" branch="false" hits="2"/>
-            <line number="160" branch="false" hits="3"/>
-            <line number="161" branch="false" hits="3"/>
-            <line number="162" branch="false" hits="2"/>
-            <line number="163" branch="false" hits="2"/>
-            <line number="164" branch="false" hits="3"/>
-            <line number="169" branch="false" hits="5"/>
-            <line number="170" branch="false" hits="5"/>
-            <line number="171" branch="false" hits="5"/>
-            <line number="176" branch="false" hits="1"/>
-            <line number="177" branch="false" hits="1"/>
-            <line number="178" branch="false" hits="1"/>
-            <line number="242" branch="false" hits="10"/>
-            <line number="243" branch="false" hits="10"/>
-            <line number="244" branch="false" hits="10"/>
-            <line number="245" branch="false" hits="10"/>
-            <line number="246" branch="false" hits="9"/>
-            <line number="247" branch="false" hits="9"/>
-            <line number="248" branch="false" hits="9"/>
-            <line number="249" branch="false" hits="9"/>
-            <line number="250" branch="false" hits="8"/>
-            <line number="251" branch="false" hits="8"/>
-            <line number="252" branch="false" hits="8"/>
-            <line number="253" branch="false" hits="8"/>
-            <line number="254" branch="false" hits="7"/>
-            <line number="255" branch="false" hits="7"/>
-            <line number="256" branch="false" hits="7"/>
-            <line number="257" branch="false" hits="7"/>
-            <line number="258" branch="false" hits="7"/>
-            <line number="259" branch="false" hits="7"/>
+            <line number="152" branch="false" hits="10"/>
+            <line number="153" branch="false" hits="10"/>
+            <line number="154" branch="false" hits="10"/>
+            <line number="155" branch="false" hits="10"/>
+            <line number="158" branch="false" hits="2"/>
+            <line number="159" branch="false" hits="2"/>
+            <line number="160" branch="false" hits="2"/>
+            <line number="166" branch="false" hits="3"/>
+            <line number="167" branch="false" hits="3"/>
+            <line number="168" branch="false" hits="2"/>
+            <line number="169" branch="false" hits="2"/>
+            <line number="170" branch="false" hits="3"/>
+            <line number="175" branch="false" hits="5"/>
+            <line number="176" branch="false" hits="5"/>
+            <line number="177" branch="false" hits="5"/>
+            <line number="182" branch="false" hits="1"/>
+            <line number="183" branch="false" hits="1"/>
+            <line number="184" branch="false" hits="1"/>
+            <line number="248" branch="false" hits="10"/>
+            <line number="249" branch="false" hits="10"/>
+            <line number="250" branch="false" hits="10"/>
+            <line number="251" branch="false" hits="10"/>
+            <line number="252" branch="false" hits="9"/>
+            <line number="253" branch="false" hits="9"/>
+            <line number="254" branch="false" hits="9"/>
+            <line number="255" branch="false" hits="9"/>
+            <line number="256" branch="false" hits="8"/>
+            <line number="257" branch="false" hits="8"/>
+            <line number="258" branch="false" hits="8"/>
+            <line number="259" branch="false" hits="8"/>
             <line number="260" branch="false" hits="7"/>
             <line number="261" branch="false" hits="7"/>
             <line number="262" branch="false" hits="7"/>
@@ -626,19 +624,25 @@
             <line number="267" branch="false" hits="7"/>
             <line number="268" branch="false" hits="7"/>
             <line number="269" branch="false" hits="7"/>
-            <line number="270" branch="false" hits="4"/>
-            <line number="271" branch="false" hits="4"/>
-            <line number="272" branch="false" hits="3"/>
-            <line number="273" branch="false" hits="1"/>
-            <line number="274" branch="false" hits="1"/>
-            <line number="275" branch="false" hits="1"/>
-            <line number="276" branch="false" hits="3"/>
-            <line number="277" branch="false" hits="2"/>
-            <line number="278" branch="false" hits="2"/>
-            <line number="279" branch="false" hits="7"/>
-            <line number="280" branch="false" hits="7"/>
-            <line number="281" branch="false" hits="7"/>
-            <line number="282" branch="false" hits="7"/>
+            <line number="270" branch="false" hits="7"/>
+            <line number="271" branch="false" hits="7"/>
+            <line number="272" branch="false" hits="7"/>
+            <line number="273" branch="false" hits="7"/>
+            <line number="274" branch="false" hits="7"/>
+            <line number="275" branch="false" hits="7"/>
+            <line number="276" branch="false" hits="4"/>
+            <line number="277" branch="false" hits="4"/>
+            <line number="278" branch="false" hits="3"/>
+            <line number="279" branch="false" hits="1"/>
+            <line number="280" branch="false" hits="1"/>
+            <line number="281" branch="false" hits="1"/>
+            <line number="282" branch="false" hits="3"/>
+            <line number="283" branch="false" hits="2"/>
+            <line number="284" branch="false" hits="2"/>
+            <line number="285" branch="false" hits="7"/>
+            <line number="286" branch="false" hits="7"/>
+            <line number="287" branch="false" hits="7"/>
+            <line number="288" branch="false" hits="7"/>
           </lines>
         </class>
         <class name="Temperature" filename="Source/Temperature.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
