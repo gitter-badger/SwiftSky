@@ -58,6 +58,5 @@ script:
       fi
 after_success:
     - if [ $CODE_COVERAGE == "YES" ]; then
-        slather;
         bash <(curl -s https://codecov.io/bash) -f coverage/cobertura.xml -X coveragepy -X gcov -X xcode;
       fi
