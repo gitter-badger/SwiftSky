@@ -1,7 +1,7 @@
 coverage_service: cobertura_xml
 xcodeproj: SwiftSky.xcodeproj
 workspace: SwiftSky.xcworkspace
-scheme: SwiftSky iOS
+scheme: SwiftSky macOS
 source_directory: Source
 output_directory: coverage/
 ignore:
