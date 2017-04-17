@@ -1,0 +1,7 @@
+coverage_service: cobertura_xml
+xcodeproj: SwiftSky.xcodeproj
+workspace: SwiftSky.xcworkspace
+scheme: SwiftSky iOS
+source_directory: Source
+ignore:
+  - Tests/*

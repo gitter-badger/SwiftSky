@@ -1,0 +1,65 @@
+module: SwiftSky
+module_version: 1.0.0
+xcodebuild_arguments: [-workspace,SwiftSky.xcworkspace,-scheme,SwiftSky iOS]
+sdk: [iphoneos|watchos|appletvos|macosx]
+github_url: https://github.com/appcompany/SwiftSky
+author: App Company.io
+swift_version: 3.1
+output: docs
+clean: true
+
+custom_categories:
+  - name: Api
+    children:
+    - SwiftSky
+    - DataType
+    - Location
+    - LocationConvertible
+    - Result
+    - ApiError
+
+  - name: Configuration
+    children:
+    - UnitProfile
+    - Language
+    - HourAmount
+
+  - name: Units
+    children:
+    - TemperatureUnit
+    - PrecipitationUnit
+    - AccumulationUnit
+    - PressureUnit
+    - SpeedUnit
+    - DistanceUnit
+
+  - name: Values
+    children:
+    - Temperature
+    - Accumulation
+    - MoonPhase
+    - PrecipitationType
+    - Bearing
+    - Distance
+    - Intensity
+    - Pressure
+    - Speed
+    - Ozone
+    - Percentage
+
+  - name: DataPoint Objects
+    children:
+    - Temperatures
+    - ApparentTemperature
+    - Precipitation
+    - Storm
+    - Wind
+    - MoonValue
+
+  - name: Forecast
+    children:
+    - Forecast
+    - DataBlock
+    - DataPoint
+    - Alert
+    - Metadata
