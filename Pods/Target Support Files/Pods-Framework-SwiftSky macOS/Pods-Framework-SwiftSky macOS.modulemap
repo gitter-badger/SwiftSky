@@ -1,0 +1,6 @@
+framework module Pods_Framework_SwiftSky_macOS {
+  umbrella header "Pods-Framework-SwiftSky macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

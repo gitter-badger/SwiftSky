@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Language Struct Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Language" class="dashAnchor"></a>
+    <a title="Language Struct Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SwiftSky Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/appcompany/SwiftSky"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwiftSky Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Language Struct Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Api.html">Api</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SwiftSky.html">SwiftSky</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DataType.html">DataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationConvertible.html">LocationConvertible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApiError.html">ApiError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Configuration.html">Configuration</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/UnitProfile.html">UnitProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Language.html">Language</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HourAmount.html">HourAmount</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TemperatureUnit.html">TemperatureUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PrecipitationUnit.html">PrecipitationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AccumulationUnit.html">AccumulationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PressureUnit.html">PressureUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SpeedUnit.html">SpeedUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DistanceUnit.html">DistanceUnit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Values.html">Values</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Temperature.html">Temperature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Accumulation.html">Accumulation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MoonPhase.html">MoonPhase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PrecipitationType.html">PrecipitationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Bearing.html">Bearing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Distance.html">Distance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Intensity.html">Intensity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Pressure.html">Pressure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Speed.html">Speed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Ozone.html">Ozone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Percentage.html">Percentage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DataPoint Objects.html">DataPoint Objects</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Temperatures.html">Temperatures</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApparentTemperature.html">ApparentTemperature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Precipitation.html">Precipitation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Storm.html">Storm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Wind.html">Wind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MoonValue.html">MoonValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Forecast.html">Forecast</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Forecast.html">Forecast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataBlock.html">DataBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataPoint.html">DataPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Alert.html">Alert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Forecast.html#/s:V8SwiftSky8Metadata">Metadata</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Enums.html">Other Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AlertSeverity.html">AlertSeverity</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Language</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Language</span></code></pre>
+
+                </div>
+              </div>
+            <p>Used to describe a language compatible with the Dark Sky API</p>
+
+<p><a href='#get-the-user-39-s-most-preffered-language' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='get-the-user-39-s-most-preffered-language'>Get the user&rsquo;s most preffered language</h2></p>
+
+<p><code><a href="../Structs/Language.html#/s:ZvV8SwiftSky8Language14userPreferenceS0_">Language.userPreference</a></code></p>
+
+<p><a href='#to-get-a-specific-language' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='to-get-a-specific-language'>To get a specific language</h2></p>
+
+<p><code>Language.&lt;language&gt;</code> (eg. <code><a href="../Structs/Language.html#/s:ZvV8SwiftSky8Language7englishS0_">Language.english</a></code>)</p>
+
+<p><a href='#a-list-of-all-current-supported-languages' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='a-list-of-all-current-supported-languages'>A list of all current supported languages</h2></p>
+
+<p><code><a href="../Structs/Language.html#/s:ZvV8SwiftSky8Language12allLanguagesGSaS0__">Language.allLanguages</a></code></p>
+
+<p><a href='#available-languages' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='available-languages'>Available Languages</h2>
+<pre class="highlight swift"><code><span class="n">arabic</span><span class="p">,</span> <span class="n">azerbaijani</span><span class="p">,</span> <span class="n">belarusian</span><span class="p">,</span> <span class="n">bulgarian</span><span class="p">,</span> <span class="n">bosnian</span><span class="p">,</span>
+<span class="n">catalan</span><span class="p">,</span> <span class="n">czech</span><span class="p">,</span> <span class="n">german</span><span class="p">,</span> <span class="n">greek</span><span class="p">,</span> <span class="n">english</span><span class="p">,</span> <span class="n">spanish</span><span class="p">,</span>
+<span class="n">estonian</span><span class="p">,</span> <span class="n">french</span><span class="p">,</span> <span class="n">croatian</span><span class="p">,</span> <span class="n">hungarian</span><span class="p">,</span> <span class="n">indonesian</span><span class="p">,</span>
+<span class="n">italian</span><span class="p">,</span> <span class="n">icelandic</span><span class="p">,</span> <span class="n">cornish</span><span class="p">,</span> <span class="n">norwegian</span><span class="p">,</span> <span class="n">dutch</span><span class="p">,</span> <span class="n">polish</span><span class="p">,</span>
+<span class="n">portuguese</span><span class="p">,</span> <span class="n">russian</span><span class="p">,</span> <span class="n">slovak</span><span class="p">,</span> <span class="n">slovenian</span><span class="p">,</span> <span class="n">serbian</span><span class="p">,</span>
+<span class="n">swedish</span><span class="p">,</span> <span class="n">tetum</span><span class="p">,</span> <span class="n">turkish</span><span class="p">,</span> <span class="n">ukrainian</span><span class="p">,</span> <span class="n">igpayAtinlay</span><span class="p">,</span>
+<span class="n">simplifiedChinese</span><span class="p">,</span> <span class="n">traditionalChinese</span>
+</code></pre></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky8Language9humanNameSS"></a>
+                    <a name="//apple_ref/swift/Property/humanName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky8Language9humanNameSS">humanName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>String</code> representing the human readable name of the language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">humanName</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language12allLanguagesGSaS0__"></a>
+                    <a name="//apple_ref/swift/Variable/allLanguages" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language12allLanguagesGSaS0__">allLanguages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An array of all Language&rsquo;s available</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">allLanguages</span> <span class="o">=</span> <span class="p">[</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language14userPreferenceS0_"></a>
+                    <a name="//apple_ref/swift/Variable/userPreference" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language14userPreferenceS0_">userPreference</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Language the user prefers</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">userPreference</span> <span class="p">:</span> <span class="kt">Language</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language6arabicS0_"></a>
+                    <a name="//apple_ref/swift/Variable/arabic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language6arabicS0_">arabic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Arabic Langauge</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">arabic</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"ar"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Arabic"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language11azerbaijaniS0_"></a>
+                    <a name="//apple_ref/swift/Variable/azerbaijani" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language11azerbaijaniS0_">azerbaijani</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Azerbaijani Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">azerbaijani</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"az"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Azerbaijani"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language10belarusianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/belarusian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language10belarusianS0_">belarusian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Belarusian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">belarusian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"be"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Belarusian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language9bulgarianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/bulgarian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language9bulgarianS0_">bulgarian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Bulgarian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">bulgarian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"bg"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Bulgarian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7bosnianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/bosnian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7bosnianS0_">bosnian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Bosnian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">bosnian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"bs"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Bosnian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7catalanS0_"></a>
+                    <a name="//apple_ref/swift/Variable/catalan" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7catalanS0_">catalan</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Catalan Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">catalan</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"ca"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Catalan"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language5czechS0_"></a>
+                    <a name="//apple_ref/swift/Variable/czech" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language5czechS0_">czech</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Czech Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">czech</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"cs"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Czech"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language6germanS0_"></a>
+                    <a name="//apple_ref/swift/Variable/german" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language6germanS0_">german</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the German Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">german</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"de"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"German"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language5greekS0_"></a>
+                    <a name="//apple_ref/swift/Variable/greek" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language5greekS0_">greek</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Greek Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">greek</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"el"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Greek"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7englishS0_"></a>
+                    <a name="//apple_ref/swift/Variable/english" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7englishS0_">english</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the English Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">english</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"en"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"English"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7spanishS0_"></a>
+                    <a name="//apple_ref/swift/Variable/spanish" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7spanishS0_">spanish</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Spanish Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">spanish</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"es"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Spanish"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language8estonianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/estonian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language8estonianS0_">estonian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Estonian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">estonian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"et"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Estonian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language6frenchS0_"></a>
+                    <a name="//apple_ref/swift/Variable/french" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language6frenchS0_">french</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the French Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">french</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"fr"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"French"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language8croatianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/croatian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language8croatianS0_">croatian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Croatian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">croatian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"hr"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Croatian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language9hungarianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/hungarian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language9hungarianS0_">hungarian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Hungarian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">hungarian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"hu"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Hungarian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language10indonesianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/indonesian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language10indonesianS0_">indonesian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Indonesian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">indonesian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"id"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Indonesian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7italianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/italian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7italianS0_">italian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Italian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">italian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"it"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Italian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language9icelandicS0_"></a>
+                    <a name="//apple_ref/swift/Variable/icelandic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language9icelandicS0_">icelandic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Icelandic Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">icelandic</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"is"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Icelandic"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7cornishS0_"></a>
+                    <a name="//apple_ref/swift/Variable/cornish" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7cornishS0_">cornish</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Cornish Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">cornish</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"kw"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Cornish"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language9norwegianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/norwegian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language9norwegianS0_">norwegian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Norwegian Bokmål Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">norwegian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"nb"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Norwegian Bokmål"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language5dutchS0_"></a>
+                    <a name="//apple_ref/swift/Variable/dutch" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language5dutchS0_">dutch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Dutch Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">dutch</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"nl"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Dutch"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language6polishS0_"></a>
+                    <a name="//apple_ref/swift/Variable/polish" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language6polishS0_">polish</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Polish Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">polish</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"pl"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Polish"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language10portugueseS0_"></a>
+                    <a name="//apple_ref/swift/Variable/portuguese" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language10portugueseS0_">portuguese</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Portuguese Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">portuguese</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"pt"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Portuguese"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7russianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/russian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7russianS0_">russian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Russian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">russian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"ru"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Russian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language6slovakS0_"></a>
+                    <a name="//apple_ref/swift/Variable/slovak" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language6slovakS0_">slovak</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Slovak Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">slovak</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"sk"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Slovak"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language9slovenianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/slovenian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language9slovenianS0_">slovenian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Slovenian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">slovenian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"sl"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Slovenian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7serbianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/serbian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7serbianS0_">serbian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Serbian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">serbian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"sr"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Serbian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7swedishS0_"></a>
+                    <a name="//apple_ref/swift/Variable/swedish" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7swedishS0_">swedish</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Swedish Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">swedish</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"sv"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Swedish"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language5tetumS0_"></a>
+                    <a name="//apple_ref/swift/Variable/tetum" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language5tetumS0_">tetum</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Tetum Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">tetum</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"tet"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Tetum"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language7turkishS0_"></a>
+                    <a name="//apple_ref/swift/Variable/turkish" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language7turkishS0_">turkish</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Turkish Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">turkish</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"tr"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Turkish"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language9ukrainianS0_"></a>
+                    <a name="//apple_ref/swift/Variable/ukrainian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language9ukrainianS0_">ukrainian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Ukrainian Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ukrainian</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"uk"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Ukrainian"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language12igpayAtinlayS0_"></a>
+                    <a name="//apple_ref/swift/Variable/igpayAtinlay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language12igpayAtinlayS0_">igpayAtinlay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the Igpay Atinlay Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">igpayAtinlay</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"x-pig-latin"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"Igpay Atinlay"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language17simplifiedChineseS0_"></a>
+                    <a name="//apple_ref/swift/Variable/simplifiedChinese" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language17simplifiedChineseS0_">simplifiedChinese</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the simplified Chinese Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">simplifiedChinese</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"zh"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"simplified Chinese"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvV8SwiftSky8Language18traditionalChineseS0_"></a>
+                    <a name="//apple_ref/swift/Variable/traditionalChinese" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvV8SwiftSky8Language18traditionalChineseS0_">traditionalChinese</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the traditional Chinese Language</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">traditionalChinese</span> <span class="o">=</span> <span class="kt">Language</span><span class="p">(</span><span class="nv">shortcode</span><span class="p">:</span> <span class="s">"zh-tw"</span><span class="p">,</span> <span class="nv">humanName</span><span class="p">:</span> <span class="s">"traditional Chinese"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/appcompany/SwiftSky" target="_blank" rel="external">App Company.io</a>. All rights reserved. (Last updated: 2017-04-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

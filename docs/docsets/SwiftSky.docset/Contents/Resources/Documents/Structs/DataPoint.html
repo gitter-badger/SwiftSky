@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DataPoint Struct Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/DataPoint" class="dashAnchor"></a>
+    <a title="DataPoint Struct Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SwiftSky Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/appcompany/SwiftSky"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwiftSky Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DataPoint Struct Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Api.html">Api</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SwiftSky.html">SwiftSky</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DataType.html">DataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LocationConvertible.html">LocationConvertible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApiError.html">ApiError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Configuration.html">Configuration</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/UnitProfile.html">UnitProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Language.html">Language</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HourAmount.html">HourAmount</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TemperatureUnit.html">TemperatureUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PrecipitationUnit.html">PrecipitationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AccumulationUnit.html">AccumulationUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PressureUnit.html">PressureUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SpeedUnit.html">SpeedUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DistanceUnit.html">DistanceUnit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Values.html">Values</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Temperature.html">Temperature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Accumulation.html">Accumulation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MoonPhase.html">MoonPhase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PrecipitationType.html">PrecipitationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Bearing.html">Bearing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Distance.html">Distance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Intensity.html">Intensity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Pressure.html">Pressure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Speed.html">Speed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Ozone.html">Ozone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Percentage.html">Percentage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DataPoint Objects.html">DataPoint Objects</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Temperatures.html">Temperatures</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApparentTemperature.html">ApparentTemperature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Precipitation.html">Precipitation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Storm.html">Storm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Wind.html">Wind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MoonValue.html">MoonValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Forecast.html">Forecast</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Forecast.html">Forecast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataBlock.html">DataBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataPoint.html">DataPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Alert.html">Alert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Forecast.html#/s:V8SwiftSky8Metadata">Metadata</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Enums.html">Other Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AlertSeverity.html">AlertSeverity</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DataPoint</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DataPoint</span></code></pre>
+
+                </div>
+              </div>
+            <p>Contains various properties, representing the average (unless otherwise specified)
+of a particular weather phenomenon during a certain period of time,
+possibly one of: current, minutes, hours or days.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint4timeV10Foundation4Date"></a>
+                    <a name="//apple_ref/swift/Property/time" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint4timeV10Foundation4Date">time</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Time at which this <code>DataPoint</code> begins</p>
+
+<p><strong>Note:</strong></p>
+
+<p>Minutes are aligned to the top of the minute,
+hours are aligned to the top of the hour and days
+are aligned to the midnight of the day, all
+according to the local time zone</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">time</span> <span class="p">:</span> <span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint11temperatureGSqVS_12Temperatures_"></a>
+                    <a name="//apple_ref/swift/Property/temperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint11temperatureGSqVS_12Temperatures_">temperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>All <code><a href="../Structs/Temperature.html">Temperature</a></code> related values</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">temperature</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Temperatures.html">Temperatures</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint13precipitationGSqVS_13Precipitation_"></a>
+                    <a name="//apple_ref/swift/Property/precipitation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint13precipitationGSqVS_13Precipitation_">precipitation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>All <code><a href="../Structs/Precipitation.html">Precipitation</a></code> related values</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">precipitation</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Precipitation.html">Precipitation</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint12nearestStormGSqVS_5Storm_"></a>
+                    <a name="//apple_ref/swift/Property/nearestStorm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint12nearestStormGSqVS_5Storm_">nearestStorm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Nearest <code><a href="../Structs/Storm.html">Storm</a></code> (only on current datapoints)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">nearestStorm</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Storm.html">Storm</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint4windGSqVS_4Wind_"></a>
+                    <a name="//apple_ref/swift/Property/wind" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint4windGSqVS_4Wind_">wind</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code><a href="../Structs/Wind.html">Wind</a></code> conditions for this <code>DataPoint</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">wind</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Wind.html">Wind</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint8dewPointGSqVS_11Temperature_"></a>
+                    <a name="//apple_ref/swift/Property/dewPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint8dewPointGSqVS_11Temperature_">dewPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code><a href="../Structs/Temperature.html">Temperature</a></code> at which the dew point lies</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">dewPoint</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint4moonGSqVS_9MoonValue_"></a>
+                    <a name="//apple_ref/swift/Property/moon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint4moonGSqVS_9MoonValue_">moon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code><a href="../Structs/MoonValue.html">MoonValue</a></code> representing moon state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">moon</span> <span class="p">:</span> <span class="kt"><a href="../Structs/MoonValue.html">MoonValue</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint8pressureGSqVS_8Pressure_"></a>
+                    <a name="//apple_ref/swift/Property/pressure" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint8pressureGSqVS_8Pressure_">pressure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sea-level air <code><a href="../Structs/Pressure.html">Pressure</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">pressure</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Pressure.html">Pressure</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint10cloudCoverGSqVS_10Percentage_"></a>
+                    <a name="//apple_ref/swift/Property/cloudCover" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint10cloudCoverGSqVS_10Percentage_">cloudCover</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code><a href="../Structs/Percentage.html">Percentage</a></code> of sky occluded by clouds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cloudCover</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Percentage.html">Percentage</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint8humidityGSqVS_10Percentage_"></a>
+                    <a name="//apple_ref/swift/Property/humidity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint8humidityGSqVS_10Percentage_">humidity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Relative humidity as <code><a href="../Structs/Percentage.html">Percentage</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">humidity</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Percentage.html">Percentage</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint5ozoneGSqVS_5Ozone_"></a>
+                    <a name="//apple_ref/swift/Property/ozone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint5ozoneGSqVS_5Ozone_">ozone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Columnar density of total atmospheric <code><a href="../Structs/Ozone.html">Ozone</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">ozone</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Ozone.html">Ozone</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint10visibilityGSqVS_8Distance_"></a>
+                    <a name="//apple_ref/swift/Property/visibility" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint10visibilityGSqVS_8Distance_">visibility</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Average visibility as <code><a href="../Structs/Distance.html">Distance</a></code>, capped at 10mi (16km)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">visibility</span> <span class="p">:</span> <span class="kt"><a href="../Structs/Distance.html">Distance</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint7sunriseGSqV10Foundation4Date_"></a>
+                    <a name="//apple_ref/swift/Property/sunrise" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint7sunriseGSqV10Foundation4Date_">sunrise</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Time at wich the sun rises</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sunrise</span> <span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint6sunsetGSqV10Foundation4Date_"></a>
+                    <a name="//apple_ref/swift/Property/sunset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint6sunsetGSqV10Foundation4Date_">sunset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Time at wich the sun sets</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sunset</span> <span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint7summaryGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/summary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint7summaryGSqSS_">summary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Human-readable summary of this <code>DataPoint</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">summary</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV8SwiftSky9DataPoint4iconGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/icon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV8SwiftSky9DataPoint4iconGSqSS_">icon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Machine-readable summary of this <code>DataPoint</code> meant for icons</p>
+
+<p><strong>Note:</strong></p>
+
+<p>Will be one of the following values:</p>
+
+<p><code>clear-day</code>, <code>clear-night</code>, <code>rain</code>, <code>snow</code>, <code>sleet</code>, <code><a href="../Structs/DataPoint.html#/s:vV8SwiftSky9DataPoint4windGSqVS_4Wind_">wind</a></code>, <code>fog</code>, <code>cloudy</code>, <code>partly-cloudy-day</code>, or <code>partly-cloudy-night</code>.</p>
+
+<p>Dark Sky notes that developers should ensure a sensible default is defined, as additional values, such as <code>hail</code>, <code>thunderstorm</code>, or <code>tornado</code>, may be defined in the future</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">icon</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/appcompany/SwiftSky" target="_blank" rel="external">App Company.io</a>. All rights reserved. (Last updated: 2017-04-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

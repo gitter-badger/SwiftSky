@@ -1,0 +1,6 @@
+framework module Pods_Framework_SwiftSky_watchOS {
+  umbrella header "Pods-Framework-SwiftSky watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
