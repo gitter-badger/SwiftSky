@@ -573,6 +573,7 @@
 				81CBD90D1E9E951B000625D2 /* Headers */,
 				81CBD90E1E9E951B000625D2 /* Resources */,
 				D39A6E7DB75EC944E13DC549 /* [CP] Copy Pods Resources */,
+				813F85921EA451A0007B269B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -858,6 +859,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Framework-Testing-SwiftSky iOS Tests/Pods-Framework-Testing-SwiftSky iOS Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		813F85921EA451A0007B269B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/prepare-commit.sh\"";
 		};
 		81C32A6E8C9C57FCE3B00046 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1656,6 +1670,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.appcompany.SwiftSky-iOS";
 				PRODUCT_NAME = SwiftSky;
 				SDKROOT = iphoneos;
